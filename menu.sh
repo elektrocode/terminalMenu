@@ -1,7 +1,8 @@
 #!/bin/bash
 # this statement prevents quiting the menu via crtl+c input
-# 2 is the signal number generated when using ctrl+c
-trap '' 2 
+# user no longer able to quit the menu using Ctrl+C or Ctrl+Z
+trap "`echo -e "Ctrl-C key disabled"`" SIGINT 
+trap "`echo -e "Ctrl-Z key disabled"`" SIGTSTP 
 while true
 do
   clear # remove any previous terminal outputs before displaying the main menu
