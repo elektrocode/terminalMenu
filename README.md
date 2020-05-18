@@ -6,3 +6,8 @@ A user configurable terminal menu
 
 ## See It In Action
 ![](terminalMenu.gif)
+
+### Development Goals
+- [x] Develop initial menu skeleton
+- [x] Prevent user for force quiting menu
+- [ ] Execute external script files
