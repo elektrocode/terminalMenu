@@ -9,5 +9,5 @@ A user configurable terminal menu
 
 ### Development Goals
 - [x] Develop initial menu skeleton
-- [x] Prevent user for force quiting menu
+- [x] Prevent user from force quiting menu
 - [ ] Execute external script files
